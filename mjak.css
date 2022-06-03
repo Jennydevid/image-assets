@@ -1,0 +1,73 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: rgba(12, 67, 92, 0.757);
+    text-align: center;   
+    font-family: cursive;
+}
+@media screen and(max-width:500px){
+    body{
+        display:flex;
+    }
+}
+.container, #answers{
+    background-color: rgba(19, 13, 13, 0.442);
+    margin:30px;
+    padding:  20px;
+    color:white;
+    border: 3px solid white;
+    text-align: center; 
+    border-radius: 10px;
+    box-shadow: 2px 0px 20px 2px ;
+}
+#desclaim{
+    display: none;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.478);
+    width:350px;
+    position: relative;
+   margin:auto;
+    border-radius: 5px;
+    color:rgb(16, 16, 62);
+    font-weight:bolder;
+}
+.enter{
+    font-size: 25px;
+}
+ol li, ul li {
+     text-align:center; 
+     list-style-position:inside;
+     }
+ol li{
+    padding:5px;
+    color:rgb(208, 188, 188);
+}
+button{
+    /* width:150px;
+    height:25px; */
+    font-size: 15px;
+}
+button:hover{
+    background-color: pink;
+    border:none;
+    height:25px;
+}
+#btn13{
+    background-color: rgba(8, 59, 79, 0.829);
+    border:none;
+    padding:10px;
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    width:90%;
+    height: auto;
+    border-radius: 10px;
+    font-family: cursive;
+}
+#btn13:hover{
+    color:yellow;
+}
+#desclaimer:hover desclaim {
+    display: block;
+}
